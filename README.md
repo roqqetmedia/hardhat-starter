@@ -1,7 +1,7 @@
 # Hardhat + Alchemy + TypeScript Starter Template
 
 <div align="center">
-  <h2>Made with ❤ by <a href="https://github.com/roqqetmedia">Roqqet Media</a></h2>
+  <h2>Made with ❤ by <a href="https://github.com/roqqetmedia">Roqqet Media</a></h2> 
 </div>
 
 ## 🤝 Features
@@ -17,23 +17,6 @@ Install NPM packages
 yarn install
 # or
 npm install
-```
-
-## 🏗️ Compiling your contracts
-
-To compile your contracts in your Hardhat project, use the built-in `compile` task:
-
-```
-$ npx hardhat compile
-
- Compiling...
- Compiled 1 contract successfully
-```
-
-## 🔰 Deploy on local network
-
-```shell
-npx hardhat run scripts/deploy.ts
 ```
 
 ## 🌐 How to Deploy a Smart Contract to the Sepolia Testnet
@@ -54,7 +37,7 @@ Name and describe your app, select _Ethereum_ as the chain, and _Sepolia_ as the
 
 <img src="https://i.imgur.com/8BTUMJF.png" alt="Create App Form" >
 
-## ⚙️ Setting Up Your Ethereum Account
+## 🦊 Setting Up Your Ethereum Account
 
 To send and receive transactions on Ethereum, you'll need an Ethereum account.
 To get started, you can [**download Metamask**](https://metamask.io/download/) for free and create an account. Once you have an account, you'll need to switch to the _Sepolia Network_.
@@ -74,7 +57,7 @@ To deploy our smart contract on the test network, we need some fake Eth. To get 
 
 <img src="https://i.imgur.com/JSd2Ye6.png" alt="copy Metamast account" >
 
-## 🦊 Integrate Metamask and Alchemy with Your Project
+## ⚙️ Integrate Metamask and Alchemy with Your Project
 
 To send any transaction from your virtual wallet, you need to sign it with your unique private key. But how can you securely provide your program with this permission? The solution is simple: you can safely store your private key (as well as your Alchemy API key) in an environment file.
 
@@ -124,6 +107,18 @@ You can check the deployment status in the [**Alchemy Dashboard**](https://dashb
 Go to your app, scroll to the bottom, and you will see something like this.
 
 <img src="https://i.imgur.com/ro3tX8a.png" alt="alchemy dashboard api" >
+
+## 🔰 Deploy on local network
+
+```shell
+npx hardhat run scripts/deploy.ts
+```
+
+After executing the previous command, you should see something like this:
+
+```
+Contract Deployed to Address: 0x5FbDB2315678afecb367f032d93F642f64180aa3
+```
 
 ## 🧪 Testing contracts
 
